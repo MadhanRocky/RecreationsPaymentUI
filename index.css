@@ -131,6 +131,7 @@ input[type="radio"] {
   font-size: 1.2rem;
   align-items: center;
   display: inherit;
+  padding-left: 1.1rem;
 }
 .credit > P > i {
   font-size: 2rem;
@@ -351,10 +352,10 @@ form > div > .card-1 > input,
     flex-direction: column;
     align-items: flex-start;
   }
-  .header-select > ul > span {
+  /* .header-select > ul > span {
     height: 3rem;
     width: 5px;
-  }
+  } */
   .body {
     padding: .5rem
   }
@@ -363,6 +364,13 @@ form > div > .card-1 > input,
     flex-direction: column;
     gap: 0;
   }
+  .left-container > h2 {
+    padding: 1rem 0;
+}
+.offer{
+  margin: 0rem;
+  padding: 1rem 2rem;
+}
   .offer-plan {
     flex-direction: column;
     padding: 1.5rem 1rem;
@@ -380,11 +388,17 @@ form > div > .card-1 > input,
     width: auto;
   }
   .payment-content > h1{
-    padding: 1rem 0 0;
+    padding: .60rem 0 0;
   }
   .payment-content > p{
     padding: 0.5rem 0;
   }
+  form > div > p {
+    padding-top: 8px;
+}
+form > div > p, form > div > .card-date > p, form > div > .card-cvv > p, form > div > .dicount > p{
+  padding-top: 8px;
+}
   
 }
 
